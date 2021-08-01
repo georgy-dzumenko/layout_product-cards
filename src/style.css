@@ -1,0 +1,31 @@
+html {
+  --main-accent-color: #060b35;
+  --secondary-color: #616070;
+  --white-color: #fff;
+  --blue-accent-color: #00acdc;
+  --gray-elements-color: #e5e5e5;
+  --light-gray-color: #f3f3f3;
+  --yelow-color: #ffde6a;
+
+  --card-width: 200px;
+  --card-height: 404px;
+}
+
+.cards-container {
+  display: flex;
+
+  gap: 10px;
+}
+
+.card {
+  width: var(--card-width);
+  height: var(--card-height);
+  box-sizing: border-box;
+  
+  border: 1px solid var(--light-gray-color);
+  border-radius: 5px;
+
+  background-color: var(--white-color);
+
+  padding: 16px;
+}
